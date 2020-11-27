@@ -102,7 +102,7 @@ class DataFinal extends Component {
         <img src={ga_infected} className="App-logo" alt="GA infected number" />
         <img src={ca_infected} className="App-logo" alt="CA infected number" />
         <img src={tx_infected} className="App-logo" alt="TX infected number" />
-        <Table dataSource={this.state.infectedData} columns={columns} pagination={false}/>
+        <Table dataSource={this.state.infectedData} columns={columns} pagination={true}/>
       </div>
     )
   }
